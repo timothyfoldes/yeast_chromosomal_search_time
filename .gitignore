@@ -1,5 +1,5 @@
-processivity_210_d_2100_precomputed/
-no_extrusion_precomputed/
+analysis/processivity_210_d_2100_precomputed/
+analysis/no_extrusion_precomputed/
 __pycache__/
 simulation/__pycache__/
 analtraj.py
