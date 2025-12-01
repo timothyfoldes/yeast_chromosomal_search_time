@@ -15,10 +15,14 @@ All parameters are specified in  parameters.py and the simulation uses helper fu
 
 Probes vs. all monomers
 We distinguish between:
+
 Probe monomers:
+
 	•	A subset of monomers representing the LacO and TetO arrays at high temporal resolution
 	•	Defined by: probe_indices = np.arange(0, N*M-1, 180)
+
 All monomers:
+
 	•	The full polymer configuration (all N*M beads), sampled at lower temporal resolution
 	•	Used to compute Hi-C–like contact maps and other equilibrium observables.
 
