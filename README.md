@@ -43,7 +43,7 @@ The analysis notebook takes precomputed probe-only trajectories from:
 - `no_extrusion_precomputed/`  (no LEFs)
 - `processivity_210_d_2100_precomputed/`  (with LEFs $\lambda=210kb$ , $d=2100kb$)
 
-These folders must be downloaded from Zenodo (10.5281/zenodo.17777768) and placed inside the `analysis/` directory before running the notebook.
+These folders must be downloaded from Zenodo ([10.5281/zenodo.17777768](https://doi.org/10.5281/zenodo.17780165)) and placed inside the `analysis/` directory before running the notebook.
 
 and performs three steps:
 
