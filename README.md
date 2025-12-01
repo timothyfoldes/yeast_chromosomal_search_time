@@ -10,6 +10,7 @@ This repository contains two components:
 simulation.py : 
 This script runs a 3D polymer molecular dynamics (MD) simulation with loop-extruding factors (LEFs) using polychrom and a LEFSimulator.
 The 1D LEF simulation uses the lef-cython library (https://github.com/mirnylab/lefs-cython/tree/main).
+The 3D simulation uses polychrom, a python wrapper of openmm, tailored for chromatin polymer simulations: https://github.com/open2c/polychrom
 
 All parameters are specified in  parameters.py and the simulation uses helper functions from helper_functions.py.
 

@@ -3,4 +3,3 @@ analysis/no_extrusion_precomputed/
 __pycache__/
 simulation/__pycache__/
 analtraj.py
-.gitignore
