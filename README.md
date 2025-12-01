@@ -1,4 +1,4 @@
-# Polymer Simulations with loop extruding factors and Experimental Comparison  
+### Polymer Simulations with loop extruding factors and Experimental Comparison  
 ### *(For the paper: **Condensin Accelerates Long-Range Intra-Chromosomal Interactions**
 
 This repository contains two components:
@@ -6,7 +6,7 @@ This repository contains two components:
 1. **`simulation/`** — 3D polymer MD simulation with Loop-Extruding Factors (LEFs)  
 2. **`analysis/`** — A notebook + experimental data files used to convert simulation units to experimental units and compare simulation predictions of search time and distance between distal loci to experimental CICI data and average probe distance.
 
-# simulation/ :LEF–Polymer Simulation
+### simulation/
 simulation.py : 
 This script runs a 3D polymer molecular dynamics (MD) simulation with loop-extruding factors (LEFs) using polychrom and a LEFSimulator.
 The 1D LEF simulation uses the lef-cython library (https://github.com/mirnylab/lefs-cython/tree/main).
@@ -25,6 +25,8 @@ All monomers:
 Output files:
 All output is stored in a folder named:
 processivity_<processivity>_d_<d>/
+
+### analysis/
 
 The analysis/ folder contains a
 - two .npy files: 1) experimental MSD for pair 4 +AID 2) corresponding lag times. 
