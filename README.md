@@ -15,7 +15,8 @@ The 3D simulation uses polychrom, a python wrapper of openmm, tailored for chrom
 All parameters are specified in  parameters.py and the simulation uses helper functions from helper_functions.py.
 
 Probes vs. all monomers
-We distinguish between:
+
+Because chromatin motion is diffusive, accurately estimating the **search time** between two distant loci requires recording positions at **high temporal resolution** so that short-lived contacts are not missed. To balance this need with storage constraints, we record two types of monomers at different acquisition rates:
 
 Probe monomers:
 
